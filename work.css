@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(images/eye.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#link{
+    display: inline;
+    position: relative;
+    left: 1150px;
+   margin-left: 15px;
+   color: white;
+   bottom: 8em;
+ 
+}
+#link a:visited{
+    color: white;   
+}
+
+#link a{
+    text-shadow: 4px 4px 6px gray;
+    text-decoration: none;
+    font-size: 25px;
+}
+.header nav{
+    color: white;
+    font-size: 47px;
+    text-align: center;
+    position: relative;
+   top: 2em;
+   text-shadow: 4px 4px 6px black;
+   
+}
+h1::first-letter{
+    font-size: 95px;
+    color: brown;
+}
+.header h3{
+    font-size: 25px;
+    color: green;
+    font: italic;
+    
+
+}
+.header span{
+    color: white;
+    font-size: 45px;
+}
+p{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 4px 4px gray;
+}
+.about div{
+    border: 2px solid;
+    height: 245px;
+    width: 245px;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+   margin: 10px;
+   left: 14em;
+
+    
+
+}
+.about li{
+   list-style: none;
+}
+#box3{
+    top: 1em;
+}
+#come2{
+    bottom: 1em;
+}
+.about span{
+    color: red;
+    font-size: 24px;
+}
+#service div{ height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 14em;
+
+}
+#service li{
+   list-style: none;
+}
+#service h3{
+    color: red;
+}
+h4{
+    font-size: 30px;
+    text-shadow: 3px 4px 5px gray;
+    text-align: center;
+}
+#div3{
+    bottom: 2.4em;
+}
+#equip div{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    left: 14em;
+    height: 400px;
+}
+#write #message{
+    width: 300px;
+    height: 300px;
+}
+#write{
+    margin: 10px;
+   
+}
+#here div{
+    display: inline-block;
+}
+#text{
+    width: 300px;
+}
+#here #button{
+    width: 90px;
+    background-color: aqua;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+#footer h3{margin: 20px;
+
+}
+
+
+
+
+
